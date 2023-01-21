@@ -10,7 +10,7 @@ const path = require('path')
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin:['https://astonishing-klepon-5ad827.netlify.app/','*'],
+    origin:['https://astonishing-klepon-5ad827.netlify.app','*'],
     methods:['GET','POST','PUT','DELETE'],
     
     credentials:true
